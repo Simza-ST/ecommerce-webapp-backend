@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/category")
-@CrossOrigin(origins = "https://thembis-bazaar.netlify.app")
+@CrossOrigin(origins = "http://localhost:5173/")
 public class CategoryController {
 
 

@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "https://thembis-bazaar.netlify.app")
+@CrossOrigin(origins = "http://localhost:5173/")
 @RequestMapping("/product")
 public class ProductController {
 
