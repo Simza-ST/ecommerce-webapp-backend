@@ -9,8 +9,9 @@ public class CartItemDto {
     private Integer quantity;
     private Product product;
 
-    public CartItemDto(Integer quantity, Product product) {
+    public CartItemDto(Integer quantity, Product product, Integer id) {
         this.quantity = quantity;
         this.product = product;
+        this.id = id;
     }
 }
